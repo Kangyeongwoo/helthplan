@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="activitycategory">
+            <item>운동 분류 선택</item>
+            <item>어깨</item>
+        <item>등</item>
+        <item>요가</item>
+        <item>유산소운동</item>
+        <item>코어</item>
+        <item>다리</item>
+        <item>직접입력</item>
+        </string-array>
+</resources>

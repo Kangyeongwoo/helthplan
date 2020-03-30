@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuitem_home"
+        android:icon="@drawable/baseline_calendar_today_black_18dp"
+        android:title="운동 기록"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuitem_startact"
+        android:icon="@drawable/baseline_fitness_center_black_18dp"
+        android:title="운동 시작"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuitem_actlist"
+        android:icon="@drawable/baseline_event_note_black_18dp"
+        android:title="운동 목록"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuitem_noticeboard"
+        android:icon="@drawable/brochure_2"
+        android:title="게시판"
+        app:showAsAction="never"/>
+
+</menu>

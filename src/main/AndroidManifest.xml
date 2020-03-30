@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.me.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/dumbbell"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dumbbell"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.naver.maps.CLIENT_ID"
+            android:value="YOUR_CLIENT_ID_HERE" />
+
+        <activity android:name=".Actionlist1" />
+        <activity android:name=".Actionlist2" />
+        <activity android:name=".Actionserch1" />
+        <activity android:name=".Actionserch2" />
+        <activity
+            android:name=".Actionserch3"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Findpassword" />
+        <activity android:name=".Helthclub" />
+        <activity android:name=".Helthlocation" />
+        <activity android:name=".Login1" />
+        <activity android:name=".Login2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Map">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Startaction1" />
+        <activity android:name=".Rest" />
+        <activity android:name=".Register2" />
+
+        <service android:name=".metronomeservice" />
+
+        <activity android:name=".Actionhistory" />
+        <activity android:name=".Modifyprofill" />
+        <activity android:name=".Noticeboard" />
+        <activity android:name=".Noticeregister1" />
+        <activity android:name=".Noticercheck1" />
+        <activity android:name=".Noticemodify" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAPqL5tGeVwg2QhG3MTQmrAhJUAhPH52js" />
+
+        <activity android:name=".locationserch" />
+        <activity android:name=".Passwordmodify"></activity>
+    </application>
+
+</manifest>
