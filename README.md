@@ -5,8 +5,8 @@ android helth palnner app
 
 # Program Stacks
 ### **Client**  
-Android  
-Google Map, Place Api  
+* Android  
+* Google Map, Place Api  
   
 ### **Server**  
-Google Firebase  
+* Google Firebase  
