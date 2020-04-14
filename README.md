@@ -1,7 +1,3 @@
-<style>
-  img{margin :3px;}
-  </style>
-
 # helthplan
 android helth palnner app
 
